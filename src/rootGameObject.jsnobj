@@ -1,0 +1,332 @@
+{
+  "refs": [],
+  "self": {
+    "children": {
+      "cube": {
+        "refs": [],
+        "self": {
+          "children": {},
+          "components": {
+            "transform": {
+              "src": "@thejsngin/standard-assets/transform.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "replace",
+                  "path": "/self/props/position/y",
+                  "value": 4.056666887872171
+                }
+              ]
+            },
+            "mesh": {
+              "src": "@thejsngin/standard-assets/mesh.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "add",
+                  "path": "/refs/1/ref/patch/1",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/color",
+                    "value": "#0098ff"
+                  }
+                }
+              ]
+            },
+            "rigidBody": {
+              "src": "@thejsngin/standard-assets/rigidBody.jsncmp",
+              "mode": "patch",
+              "patch": []
+            },
+            "collider": {
+              "src": "@thejsngin/standard-assets/collider.jsncmp",
+              "mode": "patch",
+              "patch": []
+            }
+          }
+        }
+      },
+      "camera": {
+        "refs": [],
+        "self": {
+          "children": {},
+          "components": {
+            "transform": {
+              "src": "@thejsngin/standard-assets/transform.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "replace",
+                  "path": "/self/props/rotation/y",
+                  "value": -37.49999999999999
+                },
+                {
+                  "op": "replace",
+                  "path": "/self/props/position/z",
+                  "value": 9.25
+                },
+                {
+                  "op": "replace",
+                  "path": "/self/props/position/y",
+                  "value": 2.25
+                },
+                {
+                  "op": "replace",
+                  "path": "/self/props/position/x",
+                  "value": -7
+                }
+              ]
+            },
+            "camera": {
+              "src": "@thejsngin/standard-assets/camera.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "add",
+                  "path": "/self/props/preventUsageAsMainCamera",
+                  "value": false
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/far",
+                  "value": 2000
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/near",
+                  "value": 0.1
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/fov",
+                  "value": 50
+                }
+              ]
+            },
+            "newRef": {
+              "src": "@thejsngin/standard-assets/light.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "replace",
+                  "path": "/self/props/intensity",
+                  "value": 5
+                }
+              ]
+            }
+          }
+        }
+      },
+      "ground": {
+        "refs": [],
+        "self": {
+          "children": {},
+          "components": {
+            "transform": {
+              "src": "@thejsngin/standard-assets/transform.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "replace",
+                  "path": "/self/props/scale/y",
+                  "value": 8
+                },
+                {
+                  "op": "replace",
+                  "path": "/self/props/scale/x",
+                  "value": 8
+                },
+                {
+                  "op": "replace",
+                  "path": "/self/props/rotation/x",
+                  "value": -89.99999999999993
+                }
+              ]
+            },
+            "mesh": {
+              "src": "@thejsngin/standard-assets/mesh.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/0",
+                  "value": {
+                    "op": "replace",
+                    "path": "/self/props/geometryType",
+                    "value": "PlaneGeometry"
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/1",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/depthSegments",
+                    "value": 1
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/2",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/heightSegments",
+                    "value": 1
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/3",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/widthSegments",
+                    "value": 1
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/4",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/depth",
+                    "value": 1
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/5",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/height",
+                    "value": 1
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/refs/0/ref/patch/6",
+                  "value": {
+                    "op": "add",
+                    "path": "/self/props/width",
+                    "value": 1
+                  }
+                }
+              ]
+            },
+            "rigidBody": {
+              "src": "@thejsngin/standard-assets/rigidBody.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "replace",
+                  "path": "/self/props/rigidBodyType",
+                  "value": "Fixed"
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/AdditionalMass",
+                  "value": 0.1
+                }
+              ]
+            },
+            "collider": {
+              "src": "@thejsngin/standard-assets/collider.jsncmp",
+              "mode": "patch",
+              "patch": [
+                {
+                  "op": "add",
+                  "path": "/self/props/enable-CONTACT_FORCE_EVENTS",
+                  "value": false
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/enable-COLLISION_EVENTS",
+                  "value": false
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/Sensor",
+                  "value": false
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/RestitutionCombineRule",
+                  "value": "Average"
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/Restitution",
+                  "value": 0.7
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/FrictionCombineRule",
+                  "value": "Average"
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/Friction",
+                  "value": 0.7
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/Density",
+                  "value": 1
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/rotation",
+                  "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/position",
+                  "value": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.5
+                  }
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/halfZ",
+                  "value": 0.5
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/halfY",
+                  "value": 0.5
+                },
+                {
+                  "op": "add",
+                  "path": "/self/props/halfX",
+                  "value": 0.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "renderer": {
+        "src": "@thejsngin/standard-assets/renderer.jsncmp",
+        "mode": "patch",
+        "patch": []
+      },
+      "scene": {
+        "src": "@thejsngin/standard-assets/scene.jsncmp",
+        "mode": "patch",
+        "patch": []
+      },
+      "physicsWorld": {
+        "src": "@thejsngin/standard-assets/physicsWorld.jsncmp",
+        "mode": "patch",
+        "patch": []
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "jsngin-new-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/thejsngin/new-project"
+  },
+  "dependencies": {
+    "@thejsngin/jsngin": "*",
+    "@thejsngin/rollup-plugin": "*",
+    "@thejsngin/standard-assets": "*",
+    "@dimforge/rapier3d": "^0.11.2",
+    "three": "^0.152.2",
+    "vite": "^4.3.4",
+    "vite-plugin-top-level-await": "^1.3.0",
+    "vite-plugin-wasm": "^3.2.2"
+  }
+}
